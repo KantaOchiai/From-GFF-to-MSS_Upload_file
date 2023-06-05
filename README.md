@@ -1,4 +1,4 @@
-# From-GFF-to-MSS_Upload_file
+# From-GFF-to-MSS_Upload_file_column3
 (1) 1gff_to_newgff.pl
 
 "1gff_to_newgff.pl" can be used for gff or gff3 files that contain only CDS regions. For example, the following input file. 
@@ -41,4 +41,10 @@ output_2.gff
 ID=Bplumosa0014567.mrna1.cds1;Parent=Bplumosa0014567.mrna1+ 5368..5642,5986..6142
 ID=Bplumosa0010794.mrna1.cds1;Parent=Bplumosa0010794.mrna1- 16157..16509,16603..16782,17221..17437,17511..17666
 ID=Bplumosa0010795.mrna1.cds1;Parent=Bplumosa0010795.mrna1- 22930..23182,23276..23292
+
+(3) 3preMSS_to_MSS.pl
+
+"3preMSS_to_MSS.pl" can be used for gff files output by "2newgff_to_preMSS.pl". 
+
+
 
