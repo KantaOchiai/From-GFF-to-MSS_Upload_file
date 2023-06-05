@@ -26,6 +26,3 @@ ID=Bplumosa0010794.mrna1.cds1;Parent=Bplumosa0010794.mrna1- 17221 17437
 ID=Bplumosa0010794.mrna1.cds1;Parent=Bplumosa0010794.mrna1- 17511 17666
 ID=Bplumosa0010795.mrna1.cds1;Parent=Bplumosa0010795.mrna1- 22930 23182
 ID=Bplumosa0010795.mrna1.cds1;Parent=Bplumosa0010795.mrna1- 23276 23292
-
-contig1	lemon	CDS	22930	23182	.	-	.	ID=Bplumosa0010795.mrna1.cds1;Parent=Bplumosa0010795.mrna1
-contig1	lemon	CDS	23276	23292	.	-	.	ID=Bplumosa0010795.mrna1.cds1;Parent=Bplumosa0010795.mrna1
