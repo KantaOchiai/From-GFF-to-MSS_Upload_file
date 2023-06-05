@@ -3,6 +3,7 @@
 "1gff_to_newgff.pl" can be used for gff or gff3 files that contain only CDS regions. For example, the following file. 
 
 input.gff
+
 contig1	lemon	CDS	5368	5642	.	+	.	ID=Bplumosa0014567.mrna1.cds1;Parent=Bplumosa0014567.mrna1
 contig1	lemon	CDS	5986	6142	.	+	.	ID=Bplumosa0014567.mrna1.cds1;Parent=Bplumosa0014567.mrna1
 contig1	lemon	CDS	16157	16509	.	-	.	ID=Bplumosa0010794.mrna1.cds1;Parent=Bplumosa0010794.mrna1
@@ -18,6 +19,7 @@ It should be tab-separated, with the position of the sequence in columns 3 and 4
 $ perl 1gff_to_newgff.pl input.gff > output.gff
 
 output.gff 
+
 ID=Bplumosa0014567.mrna1.cds1;Parent=Bplumosa0014567.mrna1+ 5368 5642
 ID=Bplumosa0014567.mrna1.cds1;Parent=Bplumosa0014567.mrna1+ 5986 6142
 ID=Bplumosa0010794.mrna1.cds1;Parent=Bplumosa0010794.mrna1- 16157 16509
