@@ -6,17 +6,11 @@
 input.gff
 
 contig1	lemon	CDS	5368	5642	.	+	.	ID=Bplumosa0014567.mrna1.cds1;Parent=Bplumosa0014567.mrna1
-
 contig1	lemon	CDS	5986	6142	.	+	.	ID=Bplumosa0014567.mrna1.cds1;Parent=Bplumosa0014567.mrna1
-
 contig1	lemon	CDS	16157	16509	.	-	.	ID=Bplumosa0010794.mrna1.cds1;Parent=Bplumosa0010794.mrna1
-
 contig1	lemon	CDS	16603	16782	.	-	.	ID=Bplumosa0010794.mrna1.cds1;Parent=Bplumosa0010794.mrna1
-
 contig1	lemon	CDS	17221	17437	.	-	.	ID=Bplumosa0010794.mrna1.cds1;Parent=Bplumosa0010794.mrna1
-
 contig1	lemon	CDS	17511	17666	.	-	.	ID=Bplumosa0010794.mrna1.cds1;Parent=Bplumosa0010794.mrna1
-
 contig1	lemon	CDS	22930	23182	.	-	.	ID=Bplumosa0010795.mrna1.cds1;Parent=Bplumosa0010795.mrna1
 
 It must be tab-separated, with the position of the sequence in columns 3 and 4, the orientation of the strand on which the CDS is coded in column 6, and the ID, such as the gene name, in column 8.
